@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  /* Fonts */
+  --font-pixfrom: "Pixform";
+  --font-favorit-mono: "ABC Favorit Mono Book";
+
+  /* Colros */
+  --color-bpinno-primary: #2366f0;
+  --color-bpinno-black: #090303;
+}
+
+@layer base {
+  body {
+    @apply antialiased font-favorit-mono;
+  }
+}
+
+@utility bpinno-container {
+  @apply max-w-332 mx-auto px-6;
+}

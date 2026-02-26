@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Pixform";
+  src: url("/fonts/Pixform.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ABC Favorit Mono Book";
+  src: url("/fonts/ABCFavoritMono-Book.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
