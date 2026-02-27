@@ -21,7 +21,7 @@ export default defineNuxtConfig({
       {
         name: 'Inter',
         provider: 'google',
-        weights: [400, 700],
+        weights: [400, 600],
         subsets: ['latin'],
       },
     ],
