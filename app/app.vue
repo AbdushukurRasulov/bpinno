@@ -5,7 +5,7 @@ import CTA from './components/sections/CTA.vue';
 <template>
   <Html lang="en">
     <Body>
-      <!-- <AppHeader /> -->
+      <AppHeader />
       <NuxtLayout>
         <NuxtPage />
       </NuxtLayout>
