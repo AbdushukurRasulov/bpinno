@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import CTA from './components/sections/CTA.vue';
+</script>
+
 <template>
   <Html lang="en">
     <Body>
@@ -5,6 +9,7 @@
       <NuxtLayout>
         <NuxtPage />
       </NuxtLayout>
+      <CTA />
     </Body>
   </Html>
 </template>
