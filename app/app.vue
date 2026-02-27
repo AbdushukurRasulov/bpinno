@@ -1,5 +1,10 @@
 <template>
-  <main>
-    <h2>Hello World</h2>
-  </main>
+  <Html lang="en">
+    <Body>
+      <!-- <AppHeader /> -->
+      <NuxtLayout>
+        <NuxtPage />
+      </NuxtLayout>
+    </Body>
+  </Html>
 </template>

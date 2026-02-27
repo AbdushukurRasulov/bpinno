@@ -4,6 +4,7 @@ import tailwindcss from '@tailwindcss/vite';
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
+
   app: {
     head: {
       titleTemplate: 'Bpinno | %s',
@@ -15,8 +16,27 @@ export default defineNuxtConfig({
       ],
     },
   },
+  fonts: {
+    families: [
+      {
+        name: 'Inter',
+        provider: 'google',
+        weights: [400, 700],
+        subsets: ['latin'],
+      },
+    ],
+    defaults: {
+      preload: true,
+      styles: ['normal'],
+      subsets: ['latin'],
+    },
+  },
   css: ['@/assets/css/main.css', '@/assets/css/fonts.css'],
+  components: [{ path: '~/components/layouts', prefix: '' }, '~/components'],
+
   vite: {
     plugins: [tailwindcss()],
   },
+
+  modules: ['@nuxt/fonts', '@nuxt/image'],
 });
