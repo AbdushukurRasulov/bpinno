@@ -8,7 +8,7 @@ const companies = [
   'defined.png',
   'swede.png',
   'phaselaw.png',
-  'emend-vision-fund.png',
+  'emend.png',
   'pinch.png',
   'mythic.png',
 ];

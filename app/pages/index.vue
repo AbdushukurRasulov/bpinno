@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import CTA from '~/components/pages/home/CTA.vue';
 import Investing from '~/components/pages/home/Investing.vue';
+import Portfolio from '~/components/pages/home/Portfolio.vue';
 import Companies from '~/components/sections/Companies.vue';
 </script>
 
@@ -38,6 +39,7 @@ import Companies from '~/components/sections/Companies.vue';
     </div>-->
     <!-- <Companies />  -->
     <!-- <Investing /> -->
-    <CTA />
+    <!-- <CTA /> -->
+    <Portfolio />
   </main>
 </template>
