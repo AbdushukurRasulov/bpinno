@@ -9,11 +9,11 @@ import Companies from '~/components/sections/Companies.vue';
 
 <template>
   <main>
-    <Hero />
-    <Companies />
-    <Investing />
-    <CTA />
-    <Portfolio />
+    <!-- <Hero /> -->
+    <!-- <Companies /> -->
+    <!-- <Investing /> -->
+    <!-- <CTA /> -->
+    <!-- <Portfolio /> -->
     <WhatWeBelieve />
   </main>
 </template>

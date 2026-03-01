@@ -9,8 +9,8 @@ import CTA from './components/sections/CTA.vue';
       <NuxtLayout>
         <NuxtPage />
       </NuxtLayout>
-      <CTA />
-      <AppFooter />
+      <!-- <CTA /> -->
+      <!-- <AppFooter /> -->
     </Body>
   </Html>
 </template>

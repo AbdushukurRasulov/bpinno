@@ -29,39 +29,41 @@ const data = [
 </script>
 
 <template>
-  <div class="bpinno-container pt-22 pb-37">
-    <div class="flex gap-10">
-      <div class="max-w-118 w-full">
-        <div class="sticky top-10">
-          <h2 class="max-w-sm text-[3.5rem]/[1.1] tracking-[-2.24px]">
+  <div class="bpinno-container pt-12 pb-18 lg:pt-22 lg:pb-37">
+    <div class="lg:flex gap-10">
+      <div class="lg:max-w-sm xl:max-w-118 w-full">
+        <div class="lg:sticky top-10">
+          <h2
+            class="lg:max-w-sm text-3xl tracking-[-1.2px] xl:text-[3.5rem]/[1.1] xl:tracking-[-2.24px] max-lg:text-center"
+          >
             What we
             <span class="font-pixfrom tracking-wider text-bpinno-primary">
               believe in
             </span>
           </h2>
 
-          <div class="space-y-4 mt-45">
+          <div class="max-lg:hidden space-y-4 mt-45">
             <button
               type="button"
               v-for="btn in data"
               :key="btn.id"
-              class="w-full text-left font-pixfrom text-2xl tracking-wide border-b border-bpinno-border pb-2"
+              class="w-full text-left font-pixfrom text-xl xl:text-2xl tracking-wide border-b border-bpinno-border pb-2"
             >
               {{ btn.title }}
             </button>
           </div>
         </div>
       </div>
-      <div class="flex-1 space-y-18">
+      <div class="flex-1 space-y-10 xl:space-y-18 mt-8">
         <div v-for="item in data" :key="item.id">
           <div class="relative">
             <NuxtImg :src="`/assets/imgs/${item.img}.png`" />
           </div>
-          <div class="font-inter space-y-4 mt-8">
-            <h3 class="text-xl font-semibold">
+          <div class="font-inter space-y-3 xl:space-y-4 mt-6 xl:mt-8">
+            <h3 class="text-lg xl:text-xl font-semibold">
               {{ item.title }}
             </h3>
-            <p class="max-w-lg opacity-60">
+            <p class="max-w-lg text-sm opacity-60">
               {{ item.text }}
             </p>
           </div>

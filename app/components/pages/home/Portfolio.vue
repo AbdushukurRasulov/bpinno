@@ -14,14 +14,16 @@ const firstThreePortfolios = computed(() => portfolios.slice(0, 3));
       portfolio
     </h2>
 
-    <div class="grid grid-cols-3 gap-4 mt-12">
+    <div class="grid md:grid-cols-3 gap-4 mt-12">
       <div
         v-for="portfolio in firstThreePortfolios"
         :key="portfolio.id"
-        class="group"
+        class="bg-white group"
       >
-        <div class="relative max-h-122.5 overflow-hidden">
-          <div class="absolute top-6 left-6 h-8 brightness-0 invert z-10">
+        <div class="relative max-h-86 lg:max-h-122.5 overflow-hidden">
+          <div
+            class="absolute top-6 left-6 h-6 lg:h-8 brightness-0 invert z-10"
+          >
             <NuxtImg
               class="size-full object-contain"
               :src="`/assets/imgs/companies/${portfolio.companyLogo}.png`"
@@ -38,7 +40,7 @@ const firstThreePortfolios = computed(() => portfolios.slice(0, 3));
           class="group-hover:bg-bpinno-primary group-hover:text-white transition-colors duration-500 p-6 pt-7"
         >
           <div
-            class="flex items-center text-sm uppercase text-bpinno-black/60 group-hover:text-white/60 transition-colors duration-500 space-x-2"
+            class="flex items-center text-xs lg:text-sm uppercase text-bpinno-black/60 group-hover:text-white/60 transition-colors duration-500 space-x-2"
           >
             <p>{{ portfolio.tag }}</p>
             <svg
@@ -60,13 +62,13 @@ const firstThreePortfolios = computed(() => portfolios.slice(0, 3));
 
             <p>{{ portfolio.country }}</p>
           </div>
-          <h3 class="text-4xl/none font-pixfrom mt-3">
+          <h3 class="text-2xl xl:text-4xl/none font-pixfrom mt-3">
             {{ portfolio.title }}
           </h3>
 
           <NuxtLink
             :to="portfolio.link"
-            class="inline-block font-bold underline underline-offset-4 decoration-2 mt-12"
+            class="inline-block font-bold text-sm xl:text-base underline underline-offset-4 decoration-2 mt-12"
           >
             Learn more
           </NuxtLink>
