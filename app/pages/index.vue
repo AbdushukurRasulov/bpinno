@@ -14,6 +14,6 @@ import Companies from '~/components/sections/Companies.vue';
     <!-- <Investing /> -->
     <!-- <CTA /> -->
     <!-- <Portfolio /> -->
-    <WhatWeBelieve />
+    <!-- <WhatWeBelieve /> -->
   </main>
 </template>

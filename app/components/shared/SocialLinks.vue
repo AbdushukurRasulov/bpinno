@@ -1,9 +1,19 @@
+<script setup lang="ts">
+withDefaults(
+  defineProps<{
+    size?: string;
+  }>(),
+  {
+    size: 'size-5',
+  },
+);
+</script>
+
 <template>
   <div class="flex items-center gap-6">
-    <NuxtLink to="#">
+    <NuxtLink to="#" :class="size">
       <svg
-        width="20"
-        height="20"
+        class="size-full"
         viewBox="0 0 20 20"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
@@ -14,10 +24,9 @@
         />
       </svg>
     </NuxtLink>
-    <NuxtLink to="#">
+    <NuxtLink to="#" :class="size">
       <svg
-        width="23"
-        height="20"
+        class="size-full"
         viewBox="0 0 23 20"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
@@ -32,10 +41,9 @@
         />
       </svg>
     </NuxtLink>
-    <NuxtLink to="#">
+    <NuxtLink to="#" :class="size">
       <svg
-        width="20"
-        height="20"
+        class="size-full"
         viewBox="0 0 20 20"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
