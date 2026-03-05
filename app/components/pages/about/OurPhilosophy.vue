@@ -4,11 +4,11 @@
       class="bpinno-container md:text-center text-white space-y-12 xl:space-y-18"
     >
       <h2
-        class="max-w-2xl mx-auto text-3xl tracking-tighter lg:text-5xl xl:text-bp-h1"
+        class="max-w-2xl xxl:max-w-full mx-auto text-3xl tracking-tighter lg:text-5xl/tight xxl:text-bp-h1"
       >
         Strategic capital backing technology excellence with
         <span
-          class="text-4xl tracking-normal lg:text-5xl xl:text-bp-h1-pixfrom font-pixfrom"
+          class="text-4xl tracking-normal lg:text-5xl/tight xxl:text-bp-h1-pixfrom font-pixfrom"
         >
           speed and conviction
         </span>
