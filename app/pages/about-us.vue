@@ -8,8 +8,8 @@ import WhatWeBelieve from '~/components/sections/WhatWeBelieve.vue';
 <template>
   <main>
     <Hero />
-    <OurStory />
+    <!-- <OurStory /> -->
     <OurPhilosophy />
-    <WhatWeBelieve />
+    <!-- <WhatWeBelieve /> -->
   </main>
 </template>

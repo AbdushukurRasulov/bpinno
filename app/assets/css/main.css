@@ -14,10 +14,17 @@
   --text-bp-h1: 4.75rem;
   --text-bp-h1--line-height: 1.1;
   --text-bp-h1--letter-spacing: -0.2375rem;
-  --text-bp-h1-pixfrom: 5rem;
+  --text-bp-h1-sm: 42px;
+  --text-bp-h1-sm--line-height: 1.05;
+  --text-bp-h1-sm--letter-spacing: -1.7px;
 
+  --text-bp-h1-pixfrom: 5rem;
   --text-bp-h1-pixfrom--line-height: 1.05;
   --text-bp-h1-pixfrom--letter-spacing: 0.0625rem;
+
+  --text-bp-h1-pixfrom-sm: 2.75rem;
+  --text-bp-h1-pixfrom-sm--line-height: 1.05;
+  --text-bp-h1-pixfrom-sm--letter-spacing: 0.0313rem;
 
   /* Breakpoints */
   --breakpoint-xxl: 90rem;
