@@ -1,7 +1,7 @@
 <template>
   <div class="relative bg-bpinno-primary pt-18 pb-30 xl:pt-37 xl:pb-70">
     <div
-      class="bpinno-container md:text-center text-white space-y-12 xl:space-y-18"
+      class="relative bpinno-container md:text-center text-white z-10 space-y-12 xl:space-y-18"
     >
       <h2
         class="max-w-2xl xxl:max-w-full mx-auto text-3xl tracking-tighter lg:text-5xl/tight xxl:text-bp-h1"
@@ -35,6 +35,16 @@
       >
         Let’s Chat
       </NuxtLink>
+    </div>
+
+    <div
+      class="absolute left-0 top-1/2 -translate-y-1/2 size-full pointer-events-none"
+    >
+      <NuxtImg
+        class="size-full object-contain"
+        src="/assets/imgs/philosophy-bg.webp"
+        alt="Strategic capital backing technology excellence with speed and conviction"
+      />
     </div>
   </div>
 </template>
