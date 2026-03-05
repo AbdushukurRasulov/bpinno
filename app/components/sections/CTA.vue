@@ -42,7 +42,7 @@
     </div>
 
     <NuxtImg
-      src="/assets/imgs/cta-bg.png"
+      src="/assets/imgs/cta-bg.svg"
       class="absolute inset-0 size-full object-cover"
     />
 

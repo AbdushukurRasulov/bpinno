@@ -1,26 +1,9 @@
 <script setup lang="ts">
-const investing = [
-  {
-    title: 'Stage',
-    text: 'We invest from early growth to expansion, backing transformative ideas with the capital, structure, and long-term partnership needed to scale with precision.',
-  },
-  {
-    title: 'Approach',
-    text: 'We partner closely with ambitious teams, combining strategic insight, operational discipline, and smart capital to accelerate growth and create lasting impact.',
-  },
-  {
-    title: 'Sectors',
-    text: 'Our focus spans AI, advanced infrastructure, life sciences, and frontier innovation — empowering founders building technologies that redefine industries and unlock new potential.',
-  },
-  {
-    title: 'Geography',
-    text: 'With reach across three continents, we invest where ambition and opportunity converge — connecting founders to global networks, experience, and the right markets to scale.',
-  },
-];
+import investing from '~/data/investing';
 </script>
 
 <template>
-  <div class="bg-bpinno-black py-18 md:py-24 xl:py-32">
+  <div class="relative bg-bpinno-black py-18 md:py-24 xl:py-32">
     <div class="max-w-sm lg:max-w-lg mx-auto text-center">
       <h2
         class="text-white text-3xl tracking-[-1.2px] lg:text-[3.5rem]/[1.1] lg:tracking-[-2.24px]"
@@ -88,6 +71,16 @@ const investing = [
           </div>
         </div>
       </div>
+    </div>
+
+    <div
+      class="max-w-203 w-full aspect-square absolute top-44 left-1/2 -translate-x-1/2"
+    >
+      <NuxtImg
+        class="size-full"
+        src="/assets/imgs/illustrations/bg.svg"
+        alt="Investing in real technology growth"
+      />
     </div>
   </div>
 </template>
