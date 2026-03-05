@@ -10,6 +10,15 @@
   --color-bpinno-primary: #2366f0;
   --color-bpinno-black: #090303;
 
+  /* Font Sizes */
+  --text-bp-h1: 4.75rem;
+  --text-bp-h1--line-height: 1.1;
+  --text-bp-h1--letter-spacing: -0.2375rem;
+  --text-bp-h1-pixfrom: 5rem;
+
+  --text-bp-h1-pixfrom--line-height: 1.05;
+  --text-bp-h1-pixfrom--letter-spacing: 0.0625rem;
+
   /* Breakpoints */
   --breakpoint-xxl: 90rem;
 }
