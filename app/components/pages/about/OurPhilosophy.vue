@@ -1,5 +1,7 @@
 <template>
-  <div class="relative bg-bpinno-primary pt-18 pb-30 xl:pt-37 xl:pb-70">
+  <div
+    class="relative bg-bpinno-primary overflow-hidden pt-18 pb-30 xl:pt-37 xl:pb-70"
+  >
     <div
       class="relative bpinno-container md:text-center text-white z-10 space-y-12 xl:space-y-18"
     >
