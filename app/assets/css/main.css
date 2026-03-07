@@ -38,6 +38,11 @@
   button {
     @apply cursor-pointer;
   }
+
+  input,
+  textarea {
+    @apply focus:outline-none;
+  }
 }
 
 @utility bpinno-container {
