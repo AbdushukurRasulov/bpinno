@@ -1,6 +1,9 @@
 <script setup lang="ts">
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import 'swiper/css';
+import 'swiper/css/pagination';
+
+import { Pagination } from 'swiper/modules';
 
 type MainProps = {
   title: string;
@@ -23,7 +26,7 @@ defineProps<{
 </script>
 
 <template>
-  <div class="relative bpinno-container overflow-hidden">
+  <div class="relative bpinno-container overflow-hidden z-10">
     <h2 class="text-2xl/7 md:text-4xl xl:text-bp-h1-sm">
       <span
         class="block xl:text-bp-h1-pixfrom-sm font-pixfrom text-bpinno-primary"
@@ -34,7 +37,7 @@ defineProps<{
     </h2>
 
     <div
-      class="grid md:grid-cols-2 items-center border border-bpinno-primary lg:hover:bg-bpinno-primary lg:hover:text-white transition-colors duration-500 group mt-8 lg:mt-12"
+      class="bg-white grid md:grid-cols-2 items-center border border-bpinno-primary lg:hover:bg-bpinno-primary lg:hover:text-white transition-colors duration-500 group mt-8 lg:mt-12"
     >
       <div class="w-full aspect-square overflow-hidden">
         <NuxtImg
@@ -65,8 +68,12 @@ defineProps<{
 
     <div class="mt-4 lg:mt-8 xl:mt-12 max-lg:-mx-6 max-lg:px-6">
       <swiper
+        :modules="[Pagination]"
         :slides-per-view="1.1"
         :space-between="16"
+        :pagination="{
+          clickable: true,
+        }"
         :breakpoints="{
           320: {
             enabled: true,
@@ -78,7 +85,7 @@ defineProps<{
             enabled: false,
           },
         }"
-        class="overflow-visible! [&_.swiper-wrapper]:lg:grid! [&_.swiper-wrapper]:lg:grid-cols-3 [&_.swiper-wrapper]:lg:gap-4 [&_.swiper-slide]:lg:w-full!"
+        class="overflow-visible! [&_.swiper-wrapper]:lg:grid! [&_.swiper-wrapper]:lg:grid-cols-3 [&_.swiper-wrapper]:lg:gap-4 [&_.swiper-slide]:lg:w-full! max-lg:pb-10!"
       >
         <swiper-slide
           v-for="(item, idx) in list"

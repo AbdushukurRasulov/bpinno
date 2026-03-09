@@ -48,3 +48,15 @@
 @utility bpinno-container {
   @apply max-w-332 mx-auto px-6;
 }
+
+.swiper-pagination {
+  @apply bottom-0!;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+  @apply rounded-none! bg-bpinno-black opacity-10!;
+}
+
+.swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  @apply opacity-100!;
+}

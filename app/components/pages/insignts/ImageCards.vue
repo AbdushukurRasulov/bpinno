@@ -1,6 +1,9 @@
 <script setup lang="ts">
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import 'swiper/css';
+import 'swiper/css/pagination';
+
+import { Pagination } from 'swiper/modules';
 
 defineProps<{
   highlight: string;
@@ -28,8 +31,12 @@ defineProps<{
 
     <div class="mt-8 lg:mt-12 max-lg:-mx-6 max-lg:px-6">
       <swiper
+        :modules="[Pagination]"
         :slides-per-view="1.1"
         :space-between="16"
+        :pagination="{
+          clickable: true,
+        }"
         :breakpoints="{
           320: {
             enabled: true,
@@ -41,7 +48,7 @@ defineProps<{
             enabled: false,
           },
         }"
-        class="overflow-visible! [&_.swiper-wrapper]:lg:grid! [&_.swiper-wrapper]:lg:grid-cols-2 [&_.swiper-wrapper]:lg:gap-4 [&_.swiper-slide]:lg:w-full!"
+        class="overflow-visible! [&_.swiper-wrapper]:lg:grid! [&_.swiper-wrapper]:lg:grid-cols-2 [&_.swiper-wrapper]:lg:gap-4 [&_.swiper-slide]:lg:w-full! max-lg:pb-10!"
       >
         <swiper-slide
           v-for="item in data"

@@ -65,6 +65,7 @@ import {
       />
 
       <BlocksWithMain
+        class="mb-0 lg:pb-18"
         highlight="Post-investment"
         title="partnership"
         :main="partnership.main"
