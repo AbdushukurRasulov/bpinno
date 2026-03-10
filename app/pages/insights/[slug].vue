@@ -3,6 +3,22 @@ import GridBlocks from '~/components/pages/insignts/GridBlocks.vue';
 import SocialLinks from '~/components/shared/SocialLinks.vue';
 import Tag from '~/components/shared/Tag.vue';
 
+const route = useRoute();
+
+const slug = computed(() => route.params.slug as string);
+
+const { data: article, pending } = await useAsyncData(
+  `article-${slug.value}`,
+  () => $fetch(`/api/data/articles/${slug.value}`),
+);
+
+if (!article.value && !pending.value) {
+  throw createError({
+    statusCode: 404,
+    message: 'Page not found',
+  });
+}
+
 const relatedArticles = [
   {
     id: 1,
@@ -34,14 +50,14 @@ const relatedArticles = [
     <h1
       class="max-w-5xl text-3xl xl:text-6xl/tight xxl:text-bp-h1 max-xl:border-b border-bpinno-black/10 max-xl:pb-6"
     >
-      What makes tech startups different from traditional businesses
+      {{ article.title }}
     </h1>
 
     <div class="aspect-2/1 mt-12">
       <NuxtImg
         class="size-full object-cover"
-        src="/assets/imgs/articles/what-makes-tech-startups-different-from-traditional-businesses.webp"
-        alt="What makes tech startups different from traditional businesses"
+        :src="`/assets/imgs/articles/${article.slug}.webp`"
+        :alt="article.title"
       />
     </div>
 
@@ -50,51 +66,25 @@ const relatedArticles = [
         class="max-w-2xl xl:max-w-194 ml-auto font-inter [&_p+p]:mt-6 space-y-10 xl:space-y-12"
       >
         <div class="space-y-6">
-          <p>
-            Tech companies operate on an entirely different economic curve. They
-            thrive on non-linear growth. This contrasts sharply with the linear,
-            incremental growth path of legacy businesses. Their valuation model
-            is therefore based on potential market dominance rather than
-            historical assets.
-          </p>
-          <p>
-            Non-linear growth enables them to achieve exponential scale and
-            reach global user bases. This happens without a proportional rise in
-            operating costs. The cost of serving the 100th customer is
-            fundamentally different from the cost of serving the 10 millionth.
-            The marginal cost of distribution approaches zero as the platform
-            matures.
+          <p v-for="(text, idx) in article.introduction" :key="idx">
+            {{ text }}
           </p>
         </div>
 
         <div>
           <h4 class="text-lg xl:text-[1.375rem] font-medium mb-4">
-            Intangible Core Value
+            {{ article.block1.title }}
           </h4>
-          <p>
-            Crucially, their core value is fundamentally anchored in intangible
-            assets. This includes proprietary algorithms and established network
-            effects. Physical assets and machinery play a minimal role in
-            determining long-term valuation. Their capital intensity is focused
-            almost entirely on securing top-tier engineering talent rather than
-            physical infrastructure.
-          </p>
-          <p>
-            Robust Intellectual Property (IP) is a primary source of
-            defensibility. Unlike legacy businesses focused on physical
-            production, tech prioritizes IP protection. IP serves as the
-            critical legal and technical barrier to entry for competitors. The
-            strategic hoarding of proprietary data often becomes a stronger moat
-            than patents alone. This strategic advantage allows them to sustain
-            disproportionate pricing power.
+          <p v-for="(text, idx) in article.block1.paragraphs" :key="idx">
+            {{ text }}
           </p>
         </div>
 
         <div class="w-full h-41 md:h-71">
           <NuxtImg
             class="size-full object-cover"
-            src="/assets/imgs/articles/intangible-core-value.webp"
-            alt="Intangible Core Value"
+            :src="`/assets/imgs/articles/${article.img}.webp`"
+            :alt="article.block1.title"
           />
         </div>
 
@@ -102,29 +92,19 @@ const relatedArticles = [
           <h2
             class="text-3xl tracking-tighter xl:text-bp-h1-sm font-favorit-mono mb-4"
           >
-            The Competitive Moat
+            {{ article.block2.title }}
           </h2>
-          <p>
-            Tech companies prioritize building a defensible competitive moat
-            through continuous innovation. This moat is often constructed via
-            data leverage and rapid product iteration. The goal is not just to
-            compete, but to create a market segment where competition is
-            irrelevant. This strategic advantage allows them to sustain
-            disproportionate pricing power.
+          <p v-for="(text, idx) in article.block2.paragraphs" :key="idx">
+            {{ text }}
           </p>
         </div>
 
         <div>
           <h4 class="text-lg xl:text-[1.375rem] font-medium mb-4">
-            Strategic Partnership
+            {{ article.block3.title }}
           </h4>
-          <p>
-            We partner with founders to strategically structure their company
-            and cap table. This ensures their core technological advantage is
-            built to last in a competitive landscape. Strategic structuring
-            mitigates future dilution risk while securing necessary early
-            capital. We model multiple financing rounds to confirm founder and
-            employee incentives remain robust through exit.
+          <p v-for="(text, idx) in article.block3.paragraphs" :key="idx">
+            {{ text }}
           </p>
         </div>
 
