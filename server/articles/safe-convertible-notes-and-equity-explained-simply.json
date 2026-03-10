@@ -1,0 +1,28 @@
+{
+  "slug": "safe-convertible-notes-and-equity-explained-simply",
+  "title": "SAFE, convertible notes, and equity: explained simply",
+  "introduction": [
+    "Early-stage funding primarily utilizes several core financial instruments to bridge the gap between initial concept and major institutional rounds. These instruments, namely SAFE (Simple Agreement for Future Equity) and Convertible Notes, are designed to maximize speed and flexibility for both the founder and the investor. The choice of instrument directly impacts long-term dilution and the complexity of future financing.",
+    "SAFE and Convertible Notes function as debt-like instruments that crucially defer the company's precise valuation until a future, more advanced priced funding round is completed. This mechanism minimizes complex upfront negotiation, allowing founders to focus entirely on product execution and market traction. The delayed valuation provides essential breathing room for early growth."
+  ],
+  "block1": {
+    "title": "Deferring Valuation Complexity",
+    "paragraphs": [
+      "Deferring valuation is highly advantageous when the company lacks the substantial traction necessary to command a strong price, protecting the founder from premature dilution at a low valuation. The terms typically involve a Valuation Cap and a Discount Rate that determine the investors' equity conversion rights later on. We advise teams on structuring these caps and discounts to align with realistic future growth projections.",
+      "The alternative instrument, Equity (Preferred Stock), involves setting the company's valuation upfront, thereby offering immediate financial certainty to all parties involved. However, this method requires more rigorous negotiation and complex legal documentation earlier in the company's lifecycle. We evaluate whether the company's current traction strongly justifies the added complexity of a priced equity round."
+    ]
+  },
+  "img": "deferring-valuation-complexity",
+  "block2": {
+    "title": "Managing Dilution Effectively",
+    "paragraphs": [
+      "Understanding the complex pros and cons of each instrument is absolutely crucial for founders aiming to manage dilution and valuation expectations effectively across multiple financing stages. Improper structuring of convertible instruments can lead to disproportionate dilution when the conversion event finally occurs. We rigorously model conversion scenarios to project long-term founder equity stakes."
+    ]
+  },
+  "block3": {
+    "title": "Strategic Instrument Choice",
+    "paragraphs": [
+      "We guide teams in choosing the right instrument that precisely matches their current stage, their immediate capital needs, and their projected growth trajectory over the next 12 to 18 months. This strategic choice is focused on optimizing capital efficiency, ensuring the company secures maximum runway while minimizing unnecessary legal and financial drag."
+    ]
+  }
+}

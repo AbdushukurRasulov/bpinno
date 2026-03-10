@@ -1,0 +1,28 @@
+{
+  "slug": "a-step-by-step-walkthrough-of-a-seed-round",
+  "title": "A step-by-step walkthrough of a seed round",
+  "introduction": [
+    "A seed round typically begins with the critical task of setting a precise capital target and preparing a concise, data-driven pitch deck that rigorously validates core market assumptions. This preparation phase is crucial as it defines the runway and the key milestones required to achieve Product-Market Fit (PMF). The strength of the deck dictates the velocity and success of the entire process.",
+    "The subsequent process involves strategically identifying and securing the optimal lead investor, followed by intense negotiation and agreement on a definitive term sheet. This document outlines the critical financial and legal parameters, including valuation, investor rights, and overall control structure. This negotiation requires founders to demonstrate conviction backed by tangible evidence of early traction."
+  ],
+  "block1": {
+    "title": "Navigating the Timeline",
+    "paragraphs": [
+      "The entire lifecycle, from the initial investor outreach to the final legal closing of funds, is a complex process that frequently takes several months to complete. This timeline demands proactive organization, sustained investor communication, and the ability to maintain the deal's momentum throughout the due diligence phase. Founders must manage their cash runway accordingly.",
+      "The most time-consuming phase involves deep financial and legal due diligence, where investors critically validate all claims regarding IP, financial projections, and corporate compliance. This rigorous review ensures the company is structurally sound before capital is deployed. Failure to be fully prepared for this phase is the single greatest bottleneck to timely closing."
+    ]
+  },
+  "img": "navigating-the-timeline",
+  "block2": {
+    "title": "Accelerating the Process",
+    "paragraphs": [
+      "We actively help founders navigate and accelerate these required steps by providing warm, high-quality introductions to aligned capital sources who understand the specific sector risk. We expedite the due diligence phase internally by preemptively organizing and stress-testing all necessary financial and legal documentation. This acceleration minimizes friction and sustains critical deal momentum."
+    ]
+  },
+  "block3": {
+    "title": "Protecting Founder Equity",
+    "paragraphs": [
+      "Our final strategic involvement focuses on meticulously ensuring the legal language of the term sheet is clean, founder-friendly, and maximally protects the company's long-term interests and future financing flexibility. We actively negotiate rights and control clauses to preserve the founders' ability to lead and execute on the original vision. This rigorous defense of equity value secures optimal terms for subsequent institutional rounds."
+    ]
+  }
+}

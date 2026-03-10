@@ -47,7 +47,7 @@ withDefaults(
       <swiper-slide
         v-for="(item, idx) in list"
         :key="idx"
-        class="flex! flex-col bg-white border border-bpinno-primary lg:hover:bg-bpinno-primary lg:hover:text-white transition-colors duration-300 h-auto! p-6 pb-3.5"
+        class="flex! flex-col bg-white border border-bpinno-primary lg:hover:bg-bpinno-primary lg:hover:text-white transition-colors! duration-300 h-auto! p-6 pb-3.5"
       >
         <h4 class="max-w-72 font-inter font-semibold">
           {{ item.title }}

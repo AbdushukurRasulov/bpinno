@@ -1,0 +1,28 @@
+{
+  "slug": "understanding-risk-and-reward-in-tech-investing",
+  "title": "Understanding risk and reward in tech investing",
+  "introduction": [
+    "The venture capital model is fundamentally driven by the potential for power-law returns, necessitating an inherently high-risk investment stance. This strategy accepts that the vast majority of startups will fail or provide only minimal returns, often resulting in a 'zero.' Success relies solely on a small handful of 'outliers' that generate returns sufficient to validate and provide superior performance for the entire fund portfolio.",
+    "We manage this systemic risk not by avoiding bold, conviction-driven ideas, but through active partnership and rigorous due diligence to maximize the probability of success. Our approach is designed to balance a values-driven perspective with serious, data-backed capital deployment and clear operational oversight. This strategic balance allows us to support visionary founders while tightly controlling critical execution variables."
+  ],
+  "block1": {
+    "title": "Strategic Risk Management",
+    "paragraphs": [
+      "Our focus is exclusively on calculated risks where the potential return dramatically outweighs the capital at risk. We actively fund asymmetry, where a small investment can yield a truly transformative outcome for the market category. This disciplined approach ensures that capital is never allocated merely for incremental safety or marginal gains.",
+      "Rigorous due diligence is our primary tool for preemptive risk mitigation, concentrating heavily on technology validation and team execution history. We verify the product's fundamental defensibility and the founder's proven ability to execute under extreme pressure and market volatility. This intense analysis minimizes the inherent risks associated with founder quality and unavoidable technical debt."
+    ]
+  },
+  "img": "strategic-risk-management",
+  "block2": {
+    "title": "Active Partnership Mandate",
+    "paragraphs": [
+      "Our commitment extends beyond mere capital deployment, integrating operational and strategic expertise directly into the portfolio companies. This hands-on partnership shortens the learning curve and ensures rapid course correction when initial market assumptions prove inaccurate. Our deep involvement is designed to proactively convert unmanaged risk into predictable execution speed and growth velocity."
+    ]
+  },
+  "block3": {
+    "title": "Maximizing Outlier Value",
+    "paragraphs": [
+      "The ultimate goal is to enforce operational discipline that maximizes the outlier potential of every portfolio company. We ensure that capital deployment supports market dominance and category leadership, not just survival or gradual growth. This strict focus on aggressive, scalable growth maximizes terminal valuation, delivering the necessary power-law returns for our investors."
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "what-founders-must-know-about-valuation-caps",
+  "title": "What founders must know about valuation caps",
+  "introduction": [
+    "A valuation cap sets the definitive maximum price at which an investor's convertible instrument (either SAFE or Convertible Note) will automatically convert into equity shares during the subsequent priced funding round. This critical mechanism provides foundational protection for early-stage investors, ensuring their proportional ownership is guaranteed regardless of hyper-scale growth. Founders must treat the cap as a negotiation of their future equity cost.",
+    "This mechanism protects early investors by ensuring they receive a greater percentage share of the company if the pre-money valuation increases significantly beyond expectations. For example, if the cap is $10 million and the company raises Series A at a $50 million valuation, the seed investor still converts at the lower $10 million price. This guaranteed lower conversion price is the primary incentive for early capital."
+  ],
+  "block1": {
+    "title": "Cap Mechanics and Dilution",
+    "paragraphs": [
+      "Founders must clearly understand that setting a valuation cap too low can lead directly to excessive and painful dilution of their ownership and the option pool during later financing events. A low cap sacrifices too much future equity to early investors, potentially harming the ability to recruit top talent later. Valuation caps are not reflective of current company worth, but rather a contractual ceiling on future value.",
+      "The core challenge for founders is balancing the immediate need for seed capital with the long-term imperative of preserving equity for future team and financing rounds. A cap that is disproportionately low signals a weak negotiating position and undervalues future execution risk borne by the founders. This requires modeling conversion scenarios under various high-growth outcomes."
+    ]
+  },
+  "img": "cap-mechanics-and-dilution",
+  "block2": {
+    "title": "Negotiating a Fair Cap",
+    "paragraphs": [
+      "We help founders strategically negotiate a cap that is competitive enough to attract top-tier institutional seed investors, yet fair enough to retain sufficient ownership for the team and future investors. This process requires deep market data to benchmark appropriate cap levels for the specific technology and traction stage. The goal is to maximize the present cash raised without unduly burdening the future cap table."
+    ]
+  },
+  "block3": {
+    "title": "Aligning with Strategy",
+    "paragraphs": [
+      "The negotiated valuation cap must ultimately align with the company's explicit long-term equity strategy and its planned trajectory toward a definitive high-value exit. A well-structured cap balances immediate investor security with the company's clear potential for non-linear upside. We ensure the final agreement supports sustained growth and optimized capital raising across all future rounds."
+    ]
+  }
+}
