@@ -18,6 +18,10 @@
   --text-bp-h1-sm--line-height: 1.05;
   --text-bp-h1-sm--letter-spacing: -1.7px;
 
+  --text-bp-h2: 3.5rem;
+  --text-bp-h2--line-height: 1.1;
+  --text-bp-h2--letter-spacing: -0.1406rem;
+
   --text-bp-h1-pixfrom: 5rem;
   --text-bp-h1-pixfrom--line-height: 1.05;
   --text-bp-h1-pixfrom--letter-spacing: 0.0625rem;

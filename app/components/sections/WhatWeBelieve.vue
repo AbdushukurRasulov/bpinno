@@ -29,7 +29,7 @@ const data = [
 </script>
 
 <template>
-  <div class="bpinno-container pt-12 pb-18 lg:pt-22 lg:pb-37">
+  <div class="bpinno-container pt-6 pb-18 lg:pt-22 lg:pb-37">
     <div class="lg:flex gap-10">
       <div class="lg:max-w-sm xl:max-w-118 w-full">
         <div class="lg:sticky top-10">
