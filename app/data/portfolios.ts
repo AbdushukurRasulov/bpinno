@@ -5,7 +5,7 @@ export default [
     tag: 'Healthcare',
     country: 'Canada',
     companyLogo: 'pocketpills',
-    link: '#',
+    link: '/portfolio/pocketpills',
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ export default [
     tag: 'Robotics & Automation',
     country: 'usa',
     companyLogo: 'foundation',
-    link: '#',
+    link: '/portfolio/foundation',
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ export default [
     tag: 'LegalTech',
     country: 'usa',
     companyLogo: 'phaselaw',
-    link: '#',
+    link: '/portfolio/phaselaw',
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ export default [
     tag: 'Robotics & Automation',
     country: 'usa',
     companyLogo: 'defined',
-    link: '#',
+    link: '/portfolio/defined',
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ export default [
     tag: 'Healthcare',
     country: 'Canada',
     companyLogo: 'swede',
-    link: '#',
+    link: '/portfolio/swede',
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ export default [
     tag: 'LegalTech',
     country: 'usa',
     companyLogo: 'wavy',
-    link: '#',
+    link: '/portfolio/wavy',
   },
   {
     id: 7,
@@ -53,7 +53,7 @@ export default [
     tag: 'Healthcare',
     country: 'Canada',
     companyLogo: 'aarista',
-    link: '#',
+    link: '/portfolio/aarista',
   },
   {
     id: 8,
@@ -61,7 +61,7 @@ export default [
     tag: 'Healthcare',
     country: 'Canada',
     companyLogo: 'emend',
-    link: '#',
+    link: '/portfolio/emend',
   },
   {
     id: 9,
@@ -69,6 +69,6 @@ export default [
     tag: 'Healthcare',
     country: 'Canada',
     companyLogo: 'lethub',
-    link: '#',
+    link: '/portfolio/lethub',
   },
 ];
