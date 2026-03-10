@@ -1,12 +1,24 @@
 <script setup lang="ts">
 import navigation from '~/data/navigation';
+
+const isMobileOpen = ref(false);
+
+watch(
+  () => isMobileOpen.value,
+  (val) => {
+    if (import.meta.client) {
+      document.body.classList.toggle('overflow-hidden', val);
+    }
+  },
+  { immediate: true },
+);
 </script>
 
 <template>
-  <header class="bg-white">
-    <div class="bpinno-container flex items-center justify-between py-5">
+  <header class="relative bg-white">
+    <div class="bpinno-container flex items-center justify-between py-6">
       <NuxtLink to="/">
-        <AppLogo class="w-23 h-9 md:w-30 md:h-12 shrink-0" />
+        <AppLogo class="w-24 h-10 md:w-30 md:h-12 shrink-0" />
       </NuxtLink>
 
       <nav
@@ -26,6 +38,7 @@ import navigation from '~/data/navigation';
         </NuxtLink>
 
         <button
+          @click="isMobileOpen = true"
           type="button"
           class="lg:hidden size-10 shrink-0 flex items-center border border-bpinno-black"
         >
@@ -44,4 +57,6 @@ import navigation from '~/data/navigation';
       </div>
     </div>
   </header>
+
+  <AppMobileMenu v-if="isMobileOpen" v-model:isMobileMenuOpen="isMobileOpen" />
 </template>
