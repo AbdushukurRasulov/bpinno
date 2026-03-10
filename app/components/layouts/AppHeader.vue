@@ -1,40 +1,25 @@
 <script setup lang="ts">
-const navigations = [
-  {
-    name: 'About Us',
-    link: '#',
-  },
-  {
-    name: 'Portfolio',
-    link: '#',
-  },
-  {
-    name: 'Contact',
-    link: '#',
-  },
-  {
-    name: 'Insights',
-    link: '#',
-  },
-];
+import navigation from '~/data/navigation';
 </script>
 
 <template>
   <header class="bg-white">
     <div class="bpinno-container flex items-center justify-between py-5">
-      <AppLogo class="w-23 h-9 md:w-30 md:h-12 shrink-0" />
+      <NuxtLink to="/">
+        <AppLogo class="w-23 h-9 md:w-30 md:h-12 shrink-0" />
+      </NuxtLink>
 
       <nav
         class="max-w-xl xxl:max-w-180 flex-1 hidden lg:flex items-center justify-between font-inter"
       >
-        <NuxtLink v-for="link in navigations" :key="link.name" :to="link.link">
+        <NuxtLink v-for="link in navigation" :key="link.name" :to="link.link">
           {{ link.name }}
         </NuxtLink>
       </nav>
 
       <div class="flex items-center max-lg:space-x-2">
         <NuxtLink
-          to="#"
+          to="/contact"
           class="inline-block bg-bpinno-primary text-white text-sm/6 font-bold px-3 lg:px-6 py-2"
         >
           Contact us
