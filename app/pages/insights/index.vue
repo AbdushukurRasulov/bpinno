@@ -12,6 +12,10 @@ import {
   roundsWork,
   whatWeLook,
 } from '~/data/insights';
+
+useSeo({
+  description: 'Insights on tech investing & fundraising',
+});
 </script>
 
 <template>

@@ -1,6 +1,10 @@
 <script setup lang="ts">
 import PortfolioCard from '~/components/shared/PortfolioCard.vue';
 import portfolios from '~/data/portfolios';
+
+useSeo({
+  description: 'Portfolio',
+});
 </script>
 
 <template>

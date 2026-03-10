@@ -5,6 +5,10 @@ import Investing from '~/components/pages/home/Investing.vue';
 import Portfolio from '~/components/pages/home/Portfolio.vue';
 import WhatWeBelieve from '~/components/sections/WhatWeBelieve.vue';
 import Companies from '~/components/sections/Companies.vue';
+
+useSeo({
+  description: 'We back the founders of tomorrow’s tech legacy',
+});
 </script>
 
 <template>

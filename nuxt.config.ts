@@ -7,6 +7,7 @@ export default defineNuxtConfig({
 
   app: {
     head: {
+      title: 'Bpinno',
       titleTemplate: 'Bpinno | %s',
       meta: [
         {

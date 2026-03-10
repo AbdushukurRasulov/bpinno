@@ -4,19 +4,19 @@ export default [
     navs: [
       {
         name: 'About Us',
-        link: '#',
+        link: '/about-us',
       },
       {
         name: 'Portfolio',
-        link: '#',
+        link: '/portfolio',
       },
       {
         name: 'Contact',
-        link: '#',
+        link: '/contact',
       },
       {
         name: 'Insights',
-        link: '#',
+        link: '/insights',
       },
     ],
   },

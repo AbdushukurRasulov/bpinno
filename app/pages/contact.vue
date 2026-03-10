@@ -1,5 +1,10 @@
 <script setup lang="ts">
 import InputForm from '~/components/shared/InputForm.vue';
+
+useSeo({
+  description:
+    'Ready to scale your technology with strategic capital? Contact us directly to discuss verifiable growth and long-term partnership.',
+});
 </script>
 
 <template>

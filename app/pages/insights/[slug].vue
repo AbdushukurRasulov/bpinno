@@ -41,6 +41,23 @@ const relatedArticles = [
     link: '#',
   },
 ];
+
+useHead({
+  title: article.value.title,
+  meta: [
+    {
+      key: 'description',
+      name: 'description',
+      content: article.value?.introduction[0],
+    },
+    { key: 'og:title', property: 'og:title', content: article.value?.title },
+    {
+      key: 'og:description',
+      property: 'og:description',
+      content: article.value?.introduction[0],
+    },
+  ],
+});
 </script>
 
 <template>
