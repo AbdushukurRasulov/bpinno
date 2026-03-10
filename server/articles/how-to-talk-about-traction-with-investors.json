@@ -1,0 +1,28 @@
+{
+  "slug": "how-to-talk-about-traction-with-investors",
+  "title": "How to talk about traction with investors",
+  "introduction": [
+    "Traction provides objective, quantitative proof that your product is solving a real-world, high-value problem and that your execution strategy is demonstrably working. It validates the core assumption that the market is willing to pay or adopt your solution at scale. This concrete evidence transforms a pitch from a conceptual discussion into a capital deployment decision.",
+    "Beyond relying on easily inflated vanity metrics like simple registered user counts or generic website traffic, founders must strategically focus on meaningful, defensible indicators of scalable value. Investors prioritize metrics that reflect product stickiness and commercial viability, not mere exposure. This rigorous focus inspires high confidence in the team's operational discipline."
+  ],
+  "block1": {
+    "title": "Core Financial Indicators",
+    "paragraphs": [
+      "The conversation must be anchored in core financial indicators that demonstrate predictable and sustainable revenue generation. These metrics include recurring revenue (ARR/MRR), a high Gross Margin (GM), and a high Retention Rate, proving the product's enduring commercial success. These figures are the undeniable proof that the business model is inherently viable for exponential growth.",
+      "Investors critically evaluate the relationship between Customer Acquisition Cost (CAC) and Lifetime Value (LTV), demanding a low CAC relative to a high LTV ratio (ideally 3:1 or higher). Furthermore, founders must present a positive Net Promoter Score (NPS) and low Churn Rate, signaling true customer love and product defensibility against emerging competitors."
+    ]
+  },
+  "img": "core-financial-indicators",
+  "block2": {
+    "title": "Telling the Traction Story",
+    "paragraphs": [
+      "Presenting traction means telling a concise, evidence-backed story about how your technology is already disrupting the market and generating early defensibility. The narrative must clearly articulate the inflection point where the capital acceleration will be deployed to convert early success into massive market dominance. Do not just present numbers; present the quantifiable growth trajectory."
+    ]
+  },
+  "block3": {
+    "title": "Strategic Imperative",
+    "paragraphs": [
+      "The final objective is to prove that the company is not merely ready for capital, but that the capital is now the single necessary catalyst to unleash verified, locked-in market potential. This strategic approach minimizes perceived risk and maximizes the sense of urgency for the investor to participate in the round."
+    ]
+  }
+}

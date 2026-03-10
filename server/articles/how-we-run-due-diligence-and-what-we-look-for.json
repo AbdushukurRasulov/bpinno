@@ -1,0 +1,28 @@
+{
+  "slug": "how-we-run-due-diligence-and-what-we-look-for",
+  "title": "How we run due diligence, and what we look for",
+  "introduction": [
+    "Due diligence is a thorough, highly structured process covering four critical pillars: technology, legal structure, financials, and comprehensive market validation. This rigorous, multi-faceted approach minimizes systemic risk before committing our strategic capital to the long-term, high-growth journey ahead. We manage the process efficiently to respect the founder's limited time.",
+    "We systematically dive deep into the specific architecture of your Intellectual Property (IP), the integrity of your cap table, the robustness of all customer contracts, and the definitive team structure. This comprehensive legal and financial review ensures that the foundational business structure is sound, compliant, and optimized for rapid scaling across international jurisdictions."
+  ],
+  "block1": {
+    "title": "Technical Architecture Review",
+    "paragraphs": [
+      "Critically, our distinct tech-focused approach involves a detailed, expert review of your core codebase and system architecture to ensure the infrastructure is robust and built for exponential scalability. We specifically assess the platform's modularity, inherent security protocols, and capacity to handle massive user volume without requiring proportional increases in operational overhead. Technical debt is a major red flag.",
+      "The core goal of this technical scrutiny is to validate that the proposed solution is genuinely defensible and cannot be easily replicated by well-funded competitors within the market. This review confirms the technical claims made in the pitch deck are accurately reflected in the actual product build, validating the engineering rigor of the founding team."
+    ]
+  },
+  "img": "technical-architecture-review",
+  "block2": {
+    "title": "Financial and Market Validation",
+    "paragraphs": [
+      "Financial diligence focuses not just on historical data, but on the unit economics that project long-term, scalable profitability once market dominance is achieved. We validate customer contracts and retention rates to prove the business model's inherent stickiness. The market validation phase confirms the Total Addressable Market (TAM) assumptions are accurate and the competitive landscape analysis is realistic."
+    ]
+  },
+  "block3": {
+    "title": "Mitigating Long-Term Risk",
+    "paragraphs": [
+      "Ultimately, due diligence serves as the critical defense mechanism for the fund, ensuring the foundation of the business is structurally sound for the extreme demands of the hyper-growth journey ahead. We mitigate risk by identifying and resolving potential legal or technical vulnerabilities before they can destabilize the company post-investment. This proactive approach protects both founder and investor interests."
+    ]
+  }
+}

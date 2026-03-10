@@ -1,0 +1,28 @@
+{
+  "slug": "framing-your-market-opportunity-clearly",
+  "title": "Framing your market opportunity clearly",
+  "introduction": [
+    "Defining your market opportunity goes far beyond merely listing a large, static revenue number; it requires demonstrating a clear, defensible path to capturing a significant share of that value. This foundational clarity is essential for us to confidently back your vision for market disruption and eventual dominance. The market narrative must be validated by objective metrics.",
+    "This validation requires the use of a disciplined, dual approach involving both top-down and bottom-up methods to calculate the Total Addressable Market (TAM), Serviceable Available Market (SAM), and Serviceable Obtainable Market (SOM). Over-reliance on vague, top-down figures is instantly disregarded in favor of granular, bottom-up validation of user demand and price points."
+  ],
+  "block1": {
+    "title": "Dissecting Market Metrics",
+    "paragraphs": [
+      "The primary goal of dissecting these metrics is to prove the market is large enough to justify the required venture capital power-law returns. TAM defines the maximum potential, SAM sets the realistic target for your specific solution, and SOM outlines the executable first-three-year goal. We require rigorous evidence that the team fully understands the limitations and growth vectors within these three layers.",
+      "Investors must see not only the current opportunity (SAM/SOM) but also how your core technology fundamentally enables future market expansion beyond the initial use case. This projected growth is often achieved through planned expansion into adjacent use cases, strategic international scaling, or the introduction of new proprietary product lines. This roadmap demonstrates long-term valuation potential."
+    ]
+  },
+  "img": "dissecting-market-metrics",
+  "block2": {
+    "title": "The Defensibility Mandate",
+    "paragraphs": [
+      "A clear market frame must explicitly detail the defensibility mandate, explaining how your technology will prevent competitors from easily replicating your value or capturing your market share. This includes defining the structural advantages gained from data moats, unique IP, regulatory capture, or network effects. We only fund business models that can sustain disproportionate pricing power over time."
+    ]
+  },
+  "block3": {
+    "title": "Strategic Clarity",
+    "paragraphs": [
+      "This strategic clarity is absolutely essential for us to confidently underwrite the risk associated with early-stage capital deployment. The market framing must eliminate ambiguity regarding who the customer is, where they are, and why your solution is unequivocally the best choice. This concise, evidence-based narrative is the final proof point that secures the investment."
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "the-three-slides-every-pitch-deck-needs",
+  "title": "The three slides every pitch deck needs",
+  "introduction": [
+    "Every compelling pitch deck must clearly feature three core, non-negotiable elements that anchor the entire investment narrative for potential partners. These three slides must logically prove that the team, product, and market are all perfectly aligned for sustained hyper-scale growth. Failure to clearly articulate any of these three risks immediate rejection from sophisticated investors.",
+    "The first critical element is the Problem/Solution slide, which must immediately define a severe, structural pain point in a massive market and articulate your unique, technology-driven solution. This slide must establish the economic justification for the startup's existence by clearly demonstrating how the solution generates superior value. A vague problem leads directly to immediate skepticism."
+  ],
+  "block1": {
+    "title": "Establishing Foundational Credibility",
+    "paragraphs": [
+      "Second, the Team slide is essential for establishing foundational credibility by highlighting the founders' complementary expertise, relevant past successes, and shared vision. Investors fund people first, validating the team's proven ability to execute the complex technology and endure the multi-year scaling journey. This slide must demonstrate why this specific group is uniquely qualified to solve this specific problem.",
+      "Third, the Market Opportunity slide must demonstrate a large, defensible, and rapidly expanding Total Addressable Market (TAM) that justifies the venture capital power-law return profile. The market size must be validated by bottom-up metrics, not merely top-down assumptions about industry revenue. We require evidence that the founder can credibly capture and dominate a significant share of this massive market."
+    ]
+  },
+  "img": "establishing-foundational-credibility",
+  "block2": {
+    "title": "Anchoring the Investment Narrative",
+    "paragraphs": [
+      "These three foundational slides — Problem/Solution, Team, and Market Opportunity — must collectively anchor the entire investment narrative, providing immediate, objective clarity to the investor. They must function as the conclusive evidence that the early capital deployment will lead directly to market disruption and competitive dominance. We advise founders to dedicate maximum rigor to perfecting the data presented in these three critical areas."
+    ]
+  },
+  "block3": {
+    "title": "Proving Alignment for Scale",
+    "paragraphs": [
+      "The final synthesis of these three elements must prove to the investor that the alignment between the market demand and the team's execution capability is structurally sound for exponential scale. If the market is large and the team is strong, but the solution is weak, the investment fails; all three variables must maximize each other. We use these slides to perform rapid, high-confidence assessments of a company's fundamental viability."
+    ]
+  }
+}
