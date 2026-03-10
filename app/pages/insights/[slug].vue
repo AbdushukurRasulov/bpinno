@@ -40,7 +40,7 @@ const relatedArticles = [
     <div class="aspect-2/1 mt-12">
       <NuxtImg
         class="size-full object-cover"
-        src="/assets/imgs/articles/what-makes-tech-startups-different-from-traditional-businesses .webp"
+        src="/assets/imgs/articles/what-makes-tech-startups-different-from-traditional-businesses.webp"
         alt="What makes tech startups different from traditional businesses"
       />
     </div>
